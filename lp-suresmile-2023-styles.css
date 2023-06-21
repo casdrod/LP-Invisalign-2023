@@ -313,7 +313,7 @@ star:after {
   text-align: center;
   line-height: 1;
   display: flex;
-  z-index: 200;
+  z-index: 1100;
 }
 
 #fixed-tabs a {
