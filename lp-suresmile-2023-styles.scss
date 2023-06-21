@@ -139,7 +139,7 @@ header { position: relative; padding: 15px; z-index: 100; background-color: #fff
 	  display: none!important;
 	}
 }
-.fix-nav header{position:fixed;width:100%;left:0;top:0;right:0; animation-duration:.8s; animation-fill-mode:both; animation-name:slideIn; z-index:1100; box-shadow:0 3px 7px rgba(0,0,0,0.35); padding-bottom: 10px;
+.fix-nav header{position:fixed;width:100%;left:0;top:0;right:0; animation-duration:.8s; animation-fill-mode:both; animation-name:slideIn; z-index:1100; box-shadow:0 3px 7px rgba(0,0,0,0.35);
     .logo img {max-height: 100px; display: block;}
     #nav .logo {display: block; opacity: 1; margin-bottom: 0;}
 }

@@ -13,13 +13,11 @@
 	}
 
     theWindow.on("scroll", function () {
-        if (theWindow.width() > 1000) {
             if (theWindow.scrollTop() >= headerBottom) {
                 body.addClass("fix-nav").css('padding-top', headerBottom);
             } else if (theWindow.scrollTop() <= headerBottom) {
                 body.removeClass("fix-nav").css('padding-top','0');
             }
-        }
     });
 
     // Copyright Year Auto Update
