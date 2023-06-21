@@ -44,7 +44,7 @@ body {
     text-align: center;
     color: $text;
     font: 400 18px/26px $font;
-    overflow-x:none;
+    overflow-x:hidden!important;
 }
 p {  color: $text; font: 300 20px/26px $font2;text-align:left;}
 a { display: inline-block; text-decoration: none; cursor: pointer; color: $primary; }

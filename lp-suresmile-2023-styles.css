@@ -366,7 +366,7 @@ body {
   text-align: center;
   color: #231f20;
   font: 400 18px/26px oswald, sans-serif;
-  overflow-x: none;
+  overflow-x: hidden !important;
 }
 
 p {
